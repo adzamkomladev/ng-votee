@@ -1,0 +1,22 @@
+.tui-row {
+  justify-content: center;
+}
+
+.other-auth-links {
+  text-align: center;
+
+  p {
+    color: var(--tui-text-03);
+  }
+
+  p.register-text,
+  a {
+    font: var(--tui-font-text-m);
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--tui-text-01);
+  }
+}

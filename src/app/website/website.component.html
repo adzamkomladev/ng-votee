@@ -1,0 +1,26 @@
+<div class="tui-container_fullwidth">
+  <nav class="tui-row tui-space_left-9 tui-space_vertical-10">
+    <div class="brand">
+      <a [routerLink]="['/']">
+        <img alt="Votee Logo" src="/assets/svg/votee-logo.svg" width="76px ">
+      </a>
+    </div>
+    <div class="nav-links tui-space_right-9">
+      <a class="tui-space_horizontal-5" routerLink="/" tuiLink>
+        <span class="tui-text_body-xl">Elections</span>
+      </a>
+      <a class="tui-space_horizontal-5" routerLink="/" tuiLink>
+        <span class="tui-text_body-xl">Services</span>
+      </a>
+      <a class="tui-space_horizontal-5" routerLink="/" tuiLink>
+        <span class="tui-text_body-xl">Pricing</span>
+      </a>
+      <a [routerLink]="['auth', 'sign-in']" class="tui-space-vertical-4 tui-space_horizontal-3" tuiButton type="button">
+        Sign In
+      </a>
+    </div>
+  </nav>
+  <div class="tui-row">
+    <router-outlet></router-outlet>
+  </div>
+</div>

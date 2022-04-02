@@ -1,0 +1,17 @@
+.tui-row {
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+
+  p {
+    font: var(--tui-font-text-m);
+
+    .phone-number {
+      color: var(--tui-negative);
+      font: var(--tui-font-text-l);
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<div class="tui-container">
+  <div class="tui-row">
+    <div class="heading">
+      <h3 class="tui-text_h3">Enter the verification code</h3>
+      <p>
+        We just sent a verification code to <br />
+        <span class="phone-number">{{ phoneNumber }}</span>
+      </p>
+    </div>
+  </div>
+  <div class="tui-row">
+    <votee-verify-phone-form
+      [isResendProcessing]="isResendProcessing"
+      [isVerifyProcessing]="isVerifyProcessing"
+      [resetForm]="resetForm"
+      (submitForm)="onSubmitForm($event)"
+      (resendCode)="onResendCode()"
+      class="tui-col_md-6"
+    ></votee-verify-phone-form>
+  </div>
+</div>

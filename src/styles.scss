@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --tui-heading-font: "Poppins", sans-serif !important;
+  --tui-text-font: "Poppins", sans-serif !important;
+
+  --tui-text-01: #2f5d62 !important;
+  --tui-tex-02: #5e5c5c !important;
+  --tui-link: #2f5d62 !important;
+  --tui-base-01: #fffaf1 !important;
+  --tui-base-03: #dddada !important;
+  --tui-base-05: #828181 !important;
+  --tui-base-06: #2f5d62 !important;
+  --tui-primary: #2f5d62 !important;
+  --tui-primary-hover: #289ca9 !important;
+  --tui-secondary: #ffdee2 !important;
+  --tui-secondary-hover: #fcb4bd !important;
+}
+
+body {
+  background-color: var(--tui-base-01);
+}
+
+.debug1 {
+  border: 2px solid red;
+}
+
+.debug2 {
+  border: 2px solid green;
+}
+
+.debug3 {
+  border: 2px solid blue;
+}
+
+.debug4 {
+  border: 2px solid yellow;
+}
+
+.debug5 {
+  border: 2px solid purple;
+}
+
+.debug6 {
+  border: 2px solid cyan;
+}

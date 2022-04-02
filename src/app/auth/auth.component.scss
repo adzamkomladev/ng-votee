@@ -1,0 +1,19 @@
+.tui-container_fullwidth {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  justify-content: center;
+  margin: 0;
+}
+
+.brand {
+  justify-content: center;
+}
+
+footer {
+  margin-top: auto;
+  justify-content: center;
+}

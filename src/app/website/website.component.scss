@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & a.active {
+    border-bottom: 4px solid #c64756;
+    transition: all 0.3s ease-in-out;
+  }
+}
